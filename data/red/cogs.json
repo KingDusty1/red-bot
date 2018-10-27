@@ -1,0 +1,19 @@
+{
+    "cogs.activitylog" : true,
+    "cogs.alias" : true,
+    "cogs.audio" : true,
+    "cogs.channellogger" : true,
+    "cogs.customcom" : true,
+    "cogs.downloader" : true,
+    "cogs.economy" : true,
+    "cogs.general" : true,
+    "cogs.image" : true,
+    "cogs.lockdown" : true,
+    "cogs.logger" : true,
+    "cogs.massdm" : true,
+    "cogs.mod" : true,
+    "cogs.permissions" : true,
+    "cogs.rift" : true,
+    "cogs.streams" : true,
+    "cogs.trivia" : true
+}

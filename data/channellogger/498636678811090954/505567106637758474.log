@@ -1,0 +1,18 @@
+2018-10-27 02:32:48.726000 #bot-commands @xFrenzye#9277: !channellogger
+2018-10-27 02:32:48.995000 #bot-commands @Arctic | Data#1314: Logging enabled for #bot-commands
+2018-10-27 02:33:18.894000 #bot-commands @xFrenzye#9277: !logger
+2018-10-27 02:33:19.093000 #bot-commands @Arctic | Data#1314: ```
+!logger
+
+Messes with the bot loggers
+
+Commands:
+  list     Lists logs and their levels.
+  reload   Reloads saved levels, just in case
+  reset    Resets a log to it's default level
+  rollover Rolls over a log
+  setlevel Sets level for a logger
+
+Type !logger command for more info on a command.
+You can also type !logger category for more info on a category.
+```

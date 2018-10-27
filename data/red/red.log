@@ -1,0 +1,11 @@
+[26/10/2018 21:20] DEBUG logger _get_red_loggers 56: Logger list:
+	['red', 'red.audio', 'red.economy', 'red.logger', 'red.owner']
+[26/10/2018 21:20] DEBUG logger _get_levels 38: Level list:
+	['Info', 'Info', 'Info', 'Debug', 'Info']
+[26/10/2018 21:22] ERROR red on_command_error 369: Exception in command 'logfetch server'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/Users/abruette/Desktop/Red-Bot/Red-DiscordBot/cogs/activitylog.py", line 299, in fetch_server
+    channels = [c for c in server.channels if check(c)]
+AttributeError: 'NoneType' object has no attribute 'channels'
